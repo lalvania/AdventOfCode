@@ -18,7 +18,12 @@ def run(file_path: str, top: int = 1) -> int:
 
 
 if __name__ == '__main__':
+    # test
+    print(run("resource/test"))
+    print(run("resource/test"), 3)
+
     # part 1
     print(run("resources/input"))
+
     # part 2
     print(run("resources/input", 3))
